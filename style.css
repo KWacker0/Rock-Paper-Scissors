@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.bg-light-blue {
+  background-color: 
+#ccccff;
+}
+.text-dark-blue {
+  color: 
+#0066cc;
+}
+.text-blue {
+  color:
+#1a8cff;
+}
+.vertical-align {
+  vertical-align: center;
+}
+.centered {
+  margin: auto;
+}
+.inline-block {
+  display: inline-block;
+}
+#footer {
+   background-color: 
+#ccccff;
+  height: 13%;
+  text-align:center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  }
+#start {
+  background-color:
+#ff9900;
+  border-style: outset solid 5px;
+}
+.display-none {
+  display:none;
+}
+Line 39 : Col 2 (524 chars)
+
+History
+Replit
