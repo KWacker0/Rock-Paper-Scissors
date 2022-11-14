@@ -1,9 +1,31 @@
+let comNum = Math.floor(Math.random() * 3) + 1;
+if(comNum === 1) {
+  comNum = "Rock";
+}else if(comNum === 2) {
+  comNum = "Paper";
+}else if(comNum === 3) {
+  comNum = "Scissors";
+}
+
+
 document.getElementById("start").addEventListener("click" , begin)
+document.getElementById("rockIMG").addEventListener("click" , begin)
+document.getElementById("paperIMG").addEventListener("click" , begin)
+document.getElementById("scissorsIMG").addEventListener("click" , begin)
 
 function begin(e) {
   if(e.target.id === "start") {
     document.getElementById("rulesBlock").className = "display-none";
-    
+  }
+
+  if(e.target.id === "rockIMG" && comNum === "Rock") {
+    if(comNum === "Rock") {
+      alert("won")
+    }else if(comNum === "Paper") {
+      alert("lost")
+    }else if(comNum === "Scissors") {
+      alert("lost")
+    }
   }
 }
 
