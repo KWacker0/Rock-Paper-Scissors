@@ -1,9 +1,8 @@
-document.getElementbyid("start").addEventlistiner("click" begin)
-
+document.getElementById("start").addEventListener("click" , begin)
 
 function begin(e) {
   if(e.target.id === "start") {
-    document.getElementById("MyElement").classList.add('display-none');
+    document.getElementById("rulesBlock").className = "display-none";
     
   }
 }

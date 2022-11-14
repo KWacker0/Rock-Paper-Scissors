@@ -40,9 +40,17 @@ html, body {
   border-style: outset solid 5px;
 }
 .display-none {
-  display:none;
+  display: none;
 }
-Line 39 : Col 2 (524 chars)
+.visuallyhidden {
+  position: absolute;
 
-History
-Replit
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
