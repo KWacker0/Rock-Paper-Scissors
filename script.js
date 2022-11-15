@@ -6,7 +6,7 @@ if(comNum === 1) {
 }else if(comNum === 3) {
   comNum = "Scissors";
 }
-
+console.log(comNum)
 
 document.getElementById("start").addEventListener("click" , begin)
 document.getElementById("rockIMG").addEventListener("click" , begin)
@@ -19,14 +19,19 @@ function begin(e) {
   }
 
   if(e.target.id === "rockIMG" && comNum === "Rock") {
-    if(comNum === "Rock") {
-      alert("won")
-    }else if(comNum === "Paper") {
-      alert("lost")
-    }else if(comNum === "Scissors") {
-      alert("lost")
-    }
+    alert("you Won")
+  }else if(e.target.id === "paperIMG" && comNum === "Paper") {
+    alert("you Won")
+  }else if(e.target.id === "scissorsIMG" && comNum === "Scissors") {
+    alert("you Won")
+  }else if(e.target.id === "rockIMG" && comNum !== "Rock") {
+    alert("You Lost")
+  }else if(e.target.id === "paperIMG" && comNum !== "Paper") {
+    alert("You Lost")
+  }else if(e.target.id === "scissorsIMG" && comNum !== "Scissors") {
+    alert("You Lost")
   }
+  
 }
 
 
