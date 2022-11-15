@@ -10,7 +10,10 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div class="container-fluid" id="header">
+
+
+  <!--Header -->
+  <div class="container-fluid" id="header">
   <div class="col-12 bg-light-blue">
     <h1 class="text-center text-dark-blue">Let's Play a Game!</h1>
     <h3 class="text-center text-blue">Just a Simple Game of Rock Paper Scissors</h3>
@@ -18,32 +21,56 @@
 </div>
 
 
-  
-  <div class="container centered" id="playArea">
-    <br
-      <div class="row flexrow ">
-      <div class="col d-inline centered">
-        <img src="Images/Rock.jpeg" id="rockIMG">
+
+  <!--Main Container -->
+  <div class="container centered margin-auto" id="playArea">
+
+
+    <!--Rock Paper Scissors Btns -->
+      <div class="display-none" id="gameBtns">
+
+
+        <!--Rock -->
+      <div class="text-center col centered vertical-align d-inline-block margin-auto" id="rockDiv">
+        <img class="display-none" src="Images/Rock.jpeg" alt="Rock Image" id="rockIMG">
       </div>
-        <div class="col d-inline centered">
-        <img src="Images/Paper.jpeg" id="paperIMG">
+
+
+        <!--Paper -->
+        <div class="text-center col centered vertical-align d-inline-block margin-auto" id="papDiv">
+        <img  class="display-none" src="Images/Paper.jpeg" alt="Paper Image" id="paperIMG">
       </div>
-        <div class="col d-inline centered">
-        <img src="Images/Scissors.jpeg" id="scissorsIMG">
+
+        
+        <!--Scissors -->
+        <div class="text-center col centered vertical-align d-inline-block margin-auto" id="sicDiv">
+        <img  class="display-none" src="Images/Scissors.jpeg"  alt="Scissors Image" id="scissorsIMG">
       </div>
     </div>
-    <div class="row">
+
+
+    <!--Loss Screen -->
+    <div class="text-center bg-light-blue col centered vertical-align display-none" id="lossScrn">
+        <h4>You Have Lost</h4>
+        <p>Click Start to Begin</p>
       </div>
+
+
+
+    <!--Start Area -->
       <div class="text-center bg-light-blue col-4 centered vertical-align" id="rulesBlock">
         <h4>You have 5 attempts to beat my computer at a basic game or rock, paper, scissors</h4>
         <p>Click Start to Begin</p>
-        <button class="btn" id="start">Start</button>
+        <button class="btn" id="tryAgn">Start</button>
       </div>
       <div class="col-4">
       </div>
     </div>
   </div>
-  
+
+
+
+  <!--Footer -->
 <div class="container-fluid col-12 footer" id="footer">
   <h4 class="text-dark-blue">If You Have any Bugs please report them <a href="https://github.com/KWacker0/Rock-Paper-Scissors/issues/new" style="text-decoration:none;">Here</a>.</h4>
 </div>

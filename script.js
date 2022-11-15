@@ -16,6 +16,10 @@ document.getElementById("scissorsIMG").addEventListener("click" , begin)
 function begin(e) {
   if(e.target.id === "start") {
     document.getElementById("rulesBlock").className = "display-none";
+    document.getElementById("gameBtns").className = "row margin-auto";
+    document.getElementById("rockIMG").className = "img-fluid mx-auto d-inline-block centered margin-auto";
+    document.getElementById("paperIMG").className = "img-fluid mx-auto d-inline-block centered margin-auto";
+    document.getElementById("scissorsIMG").className = "img-fluid mx-auto d-inline-block centered margin-auto";
   }
 
   if(e.target.id === "rockIMG" && comNum === "Rock") {
@@ -26,10 +30,16 @@ function begin(e) {
     alert("you Won")
   }else if(e.target.id === "rockIMG" && comNum !== "Rock") {
     alert("You Lost")
+    document.getElementById("gameBtns").className = "display-none";
+    document.getElementById("lossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
   }else if(e.target.id === "paperIMG" && comNum !== "Paper") {
     alert("You Lost")
+    document.getElementById("gameBtns").className = "display-none";
+    document.getElementById("lossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
   }else if(e.target.id === "scissorsIMG" && comNum !== "Scissors") {
     alert("You Lost")
+    document.getElementById("gameBtns").className = "display-none";
+    document.getElementById("lossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
   }
   
 }
