@@ -54,7 +54,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
       document.getElementById("gameBtns").className = "display-none";
@@ -80,7 +80,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
       document.getElementById("gameBtns").className = "display-none";
@@ -106,7 +106,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
       document.getElementById("gameBtns").className = "display-none";
@@ -131,7 +131,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
         document.getElementById("gameBtns").className = "display-none";
@@ -152,7 +152,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
         document.getElementById("gameBtns").className = "display-none";
@@ -176,7 +176,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else{
         document.getElementById("gameBtns").className = "display-none";
@@ -197,7 +197,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
         document.getElementById("gameBtns").className = "display-none";
@@ -220,7 +220,7 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
         }else {
         document.getElementById("gameBtns").className = "display-none";
@@ -241,13 +241,14 @@ function begin(e) {
           document.getElementById("restScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
           document.getElementById("restMess").innerHTML = `Would You Like To play Again you won ${winCount} times out of 5 and lost ${lossCount} times out of 5`;
           if(e.target.id === "restart") {
-            location.reload()
+            location.reload();
           }
-        }
+        }else {
         document.getElementById("gameBtns").className = "display-none";
         document.getElementById("winLossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
         document.getElementById("winLoss").innerHTML = `You Lost!`;
         document.getElementById("winLossCount").innerHTML = `${usrChoice} does not beat ${dispNum} you have ${remAttem} attempts left`;
+        }
       }
     }
           
