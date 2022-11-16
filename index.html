@@ -50,18 +50,19 @@
 
 
     <!--Loss Screen -->
-    <div class="text-center bg-light-blue col centered vertical-align display-none" id="lossScrn">
-        <h4>You Have Lost</h4>
-        <p>Click Start to Begin</p>
+    <div class="display-none" id="winLossScrn">
+        <h4 id="winLoss">You Have Lost</h4>
+        <p id="winLossCount"></p>
+      <button class="btn btn-color" id="tryAgain"> Try Again </button>
       </div>
 
 
 
     <!--Start Area -->
-      <div class="text-center bg-light-blue col-4 centered vertical-align" id="rulesBlock">
+      <div class="text-center bg-light-blue col-4 centered vertical-align dispaly-none" id="rulesBlock">
         <h4>You have 5 attempts to beat my computer at a basic game or rock, paper, scissors</h4>
         <p>Click Start to Begin</p>
-        <button class="btn" id="tryAgn">Start</button>
+        <button class="btn btn-color" id="start">Start</button>
       </div>
       <div class="col-4">
       </div>

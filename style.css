@@ -34,7 +34,7 @@ html, body {
   left: 0;
   bottom: 0;
   }
-#start {
+.btn-color {
   background-color:
 #ff9900;
   border-style: outset solid 5px;
