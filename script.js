@@ -45,6 +45,7 @@ function begin(e) {
         document.getElementById("winLossCount").innerHTML = `${usrChoice} beats Scissors you have ${remAttem} more trys to secure the victory`;
         document.getElementById("tryAgain").innerHTML = `Continue`;
       }else if(comNum === 1) {
+        remAttem++
         document.getElementById("gameBtns").className = "display-none";
         document.getElementById("winLossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
         document.getElementById("winLoss").innerHTML = `We Tied!`;
@@ -73,9 +74,10 @@ function begin(e) {
         document.getElementById("gameBtns").className = "display-none";
         document.getElementById("winLossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
         document.getElementById("winLoss").innerHTML = `Congrats! You Won!`;
-      d  ocument.getElementById("winLossCount").innerHTML = `${usrChoice} beats Rock you have ${remAttem} more trys to secure the victory`;
+        document.getElementById("winLossCount").innerHTML = `${usrChoice} beats Rock you have ${remAttem} more trys to secure the victory`;
         document.getElementById("tryAgain").innerHTML = `Continue`;
       }else if(comNum === 2) {
+        remAttem++
         document.getElementById("gameBtns").className = "display-none";
         document.getElementById("winLossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
         document.getElementById("winLoss").innerHTML = `We Tied!`;
@@ -107,6 +109,7 @@ function begin(e) {
         document.getElementById("winLossCount").innerHTML = `${usrChoice} beats Paper you have ${remAttem} more trys to secure the victory`;
         document.getElementById("tryAgain").innerHTML = `Continue`;
       }else if(comNum === 3) {
+        remAttem++
         document.getElementById("gameBtns").className = "display-none";
         document.getElementById("winLossScrn").className = "text-center bg-light-blue col-4 centered vertical-align";
         document.getElementById("winLoss").innerHTML = `We Tied!`;

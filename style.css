@@ -24,8 +24,7 @@ html, body {
   display: inline-block;
 }
 #footer {
-   background-color: 
-#ccccff;
+  background-color: #ccccff;
   height: 13%;
   text-align:center;
 }
@@ -41,18 +40,6 @@ html, body {
 }
 .display-none {
   display: none;
-}
-.visuallyhidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .margin-auto {
   margin: auto
