@@ -3,16 +3,13 @@ html, body {
   width: 100%;
 }
 .bg-light-blue {
-  background-color: 
-#ccccff;
+  background-color: #ccccff;
 }
 .text-dark-blue {
-  color: 
-#0066cc;
+  color: #0066cc;
 }
 .text-blue {
-  color:
-#1a8cff;
+  color: #1a8cff;
 }
 .vertical-align {
   vertical-align: center;
@@ -34,13 +31,10 @@ html, body {
   bottom: 0;
   }
 .btn-color {
-  background-color:
-#ff9900;
-  border-style: outset solid 5px;
+  background-color: #ff9900;
+  border: solid 5px;
+  border-style: outset;
 }
 .display-none {
   display: none;
-}
-.margin-auto {
-  margin: auto
 }
