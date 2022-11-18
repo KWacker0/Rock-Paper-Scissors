@@ -5,20 +5,20 @@
   <meta charset="utf-8">
     <meta name="veiwport" content="width=device-width, initial-scale=1">
     <title>Rock Paper Scissors</title>
-   
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
 
   <!--Header -->
   <div class="container-fluid" id="header">
-  <div class="col-12 bg-light-blue">
-    <h1 class="text-center text-dark-blue">Let's Play a Game!</h1>
-    <h3 class="text-center text-blue">Just a Simple Game of Rock, Paper, Scissors.</h3>
+    <div class="col-12 bg-light-blue">
+      <h1 class="text-center text-dark-blue">Let's Play a Game!</h1>
+      <h3 class="text-center text-blue">Just a Simple Game of Rock, Paper, Scissors.</h3>
+    </div>
   </div>
-</div>
 
 
 
@@ -27,53 +27,52 @@
 <br
 
     <!--Rock Paper Scissors Btns -->
-      <div class="display-none" id="gameBtns">
+    <div class="display-none" id="gameBtns">
 
 
-        <!--Rock -->
+      <!--Rock -->
       <div class="text-center col centered vertical-align d-inline-block margin-auto" id="rockDiv">
         <img class="display-none" src="Images/Rock.jpeg" alt="Rock Image" id="rockIMG">
       </div>
 
 
-        <!--Paper -->
-        <div class="text-center col centered vertical-align d-inline-block margin-auto" id="papDiv">
+      <!--Paper -->
+      <div class="text-center col centered vertical-align d-inline-block margin-auto" id="papDiv">
         <img  class="display-none" src="Images/Paper.jpeg" alt="Paper Image" id="paperIMG">
       </div>
 
         
-        <!--Scissors -->
-        <div class="text-center col centered vertical-align d-inline-block margin-auto" id="sicDiv">
+      <!--Scissors -->
+      <div class="text-center col centered vertical-align d-inline-block margin-auto" id="sicDiv">
         <img  class="display-none" src="Images/Scissors.jpeg"  alt="Scissors Image" id="scissorsIMG">
       </div>
+      
     </div>
 
 
     <!--Loss Screen -->
     <div class="display-none" id="winLossScrn">
-        <h4 id="winLoss">You Have Lost</h4>
-        <p id="winLossCount"></p>
+      <h4 id="winLoss">You Have Lost</h4>
+      <p id="winLossCount"></p>
       <button class="btn btn-color" id="tryAgain"> Try Again </button>
-      </div>
+    </div>
 
     <!-- Restart Screen -->
     <div class="display-none" id="restScrn">
-        <h4>Would you like to play Again?</h4>
-        <p id="restMess"></p>
+      <h4>Would you like to play Again?</h4>
+      <p id="restMess"></p>
       <button class="btn btn-color" id="restart">Restart</button>
-      </div>
+    </div>
 
 
 
     <!--Start Area -->
-      <div class="text-center bg-light-blue col-4 centered vertical-align dispaly-none" id="rulesBlock">
-        <h4>You have 5 attempts to beat my computer at a basic game or rock, paper, scissors</h4>
-        <p>Click Start to Begin</p>
-        <button class="btn btn-color" id="start">Start</button>
-      </div>
-      <div class="col-4">
-      </div>
+    <div class="text-center bg-light-blue col-4 centered vertical-align dispaly-none" id="rulesBlock">
+      <h4>You have 5 attempts to beat my computer at a basic game or rock, paper, scissors</h4>
+      <p>Click Start to Begin</p>
+      <button class="btn btn-color" id="start">Start</button>
     </div>
+  
   </div>
 
 

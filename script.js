@@ -3,7 +3,7 @@ let usrChoice = 0;
 let winCount = 0;
 let lossCount = 0;
 let dispNum = 0;
-let remAttem = 5;
+let remAttem = 6;
 
 
 document.getElementById("start").addEventListener("click" , begin);
@@ -135,8 +135,8 @@ function begin(e) {
       document.getElementById("scissorsIMG").className = "img-fluid mx-auto d-inline-block centered margin-auto";
     }
   
-  // Restart
-  if(e.target.id === "restart") {
-    location.reload();
-  }
+    // Restart
+    if(e.target.id === "restart") {
+      location.reload();
+    }
 }    
